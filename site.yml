@@ -1,0 +1,6 @@
+---
+# This will install apchec to hosts
+
+- hosts: UbuntuHost
+  roles:
+  - role: apache

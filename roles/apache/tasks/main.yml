@@ -1,0 +1,9 @@
+---
+# tasks file for apache
+
+- name: Importing task
+  import_tasks: install_apache.yml
+  become: yes
+
+- name: importing prit_some
+  import_tasks: print_some.yml
